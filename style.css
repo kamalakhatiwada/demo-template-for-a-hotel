@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.secondary{
+	background:#3d3d29;
+}
+
+/*========================navbarsection===============================*/
+
+
+.menu .logo{
+	padding: 20px 0;
+	color:#3d3d29;
+}
+
+.menu nav{
+  float: right;
+  padding: 20px 0;
+}
+
+
+
+
+/*===================================photo section=============================*/
+
+
+section#photo-section {
+    background-image: url("image/3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: cover;
+    min-height:600px;
+    background-color:rgb(0,0,0,.6);
+    background-blend-mode:overlay;
+    
+}
+
+.textone{
+	position: relative;
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+	padding: 50px;
+	transform: translateY(50%);
+}
+
+.textone .headerone{
+	color: #fff;
+
+}
+
+.textone .paraone{
+	color:#fff;
+	padding: 5px 5px; 
+}
+
+
+
+
+/*=================stay and enjoy============*/
+
+.stay{
+	padding: 100px 0;
+}
+
+.stay .headertwo{
+	
+	color:  #0d0d0d;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+
+}
+
+.stay .paratwo{
+	
+	color: #3d3d29;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;	
+}
+
+.stay img{
+	height: 100%;
+	width: 100%;
+	
+	box-shadow: 10px 10px #DC143C;
+}
+
+.stay .btn-outline-danger{
+	margin: 0 20px;
+}
+
+
+
+/*================featured rooms==============*/
+
+
+
+.room{
+	background-color: #3d3d29; 
+	padding-bottom: 50px;
+	min-height: 600px;
+}
+
+.room h3{
+	color: #fff;
+	font-weight: normal;
+	padding: 10px 0;
+	background: #DC143C;
+}
+
+.room .headerthree{
+	text-align: center;
+	color:  #fff;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.room img{
+	height: 100%;
+	width: 100%;
+}
+
+.button{
+	margin-top: 80px;
+}
+ 
+
+
+
+
+/*===============================video section==========================*/
+
+
+.video{
+	background-image: url("image/3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: cover;
+    min-height:400px;
+    background-color:rgb(0,0,0,.6);
+    background-blend-mode:overlay;
+
+}
+
+.video .headerfour{
+	
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+.video .parafour{
+	
+	color: white;
+	padding: 10px 50px;
+	padding-bottom: 40px;
+}
+
+.video i{
+	color: #DC143C ;
+	font-size: 50px;	
+ 	height: 50px;
+ 	width: 50px;
+ 	border-radius: 50%; 
+ 	text-decoration: none;
+ 	text-align: center;
+ 	
+}
+
+
+/*=========================our blogs==========================*/
+
+
+
+.blog {
+	
+	padding: 30px 0;
+	min-height: 700px;
+}
+
+.blog .headerfive{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-transform: uppercase;
+	color: #3d3d29;
+}
+
+.blog h1{
+	
+	padding: 10px 5px;
+	color: #3d3d29;
+	font-size: 30px;
+	
+}
+
+.blog p{
+	
+	padding: 10px 5px;
+	color: #3d3d29;
+}
+
+.blog .btn-outline-danger{
+	
+	margin-left: 5px;
+	margin-bottom: 10px;
+
+}
+
+.text{
+	background-color: white;
+	box-shadow:0px 5px 10px grey;  ;
+
+}
+
+/*============footer section=================*/
+
+
+
+
+.subfooter{
+	background:  #f2f2f2;
+	min-height: 300px;
+
+}
+
+.subfooter h2{
+	font-size: 25px ;
+	padding:15px 0;
+	margin-top: 10px; 
+	color: #3d3d29;
+}
+
+.subfooter p{
+	
+	padding:10px 0;
+	color: #3d3d29;
+}
+
+.subfooter p i{
+	font-size: 20px;
+	padding:10px 0;
+	color: #DC143C;
+	padding-right:5px;
+}
+
+.social-icons {
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+
+.social-icons i{
+ color: #DC143C;
+ height: 36px;
+ width: 36px;
+ border-radius: 50%;
+ border: 2px solid  #DC143C;
+ display: inline-block;
+ text-decoration: none;
+ text-align: center;
+ padding: 10px 0;
+ margin-top: 10px;
+ margin-left: 4px;
+}
+
+.btn-outline-danger{
+	margin: 10px 0;
+}
+
+.form-group label{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/*===========mainfooter=================*/
+
+
+.mainfooter{
+	background: #3d3d29;
+	text-align: center;
+	padding: 30px 0;
+	color: white;
+}
+
+
+/*responsive*/
+
+/*extra small devices (phones,600px and down)*/
+
+@media only screen and (max-width:600px){
+.stay .btn-outline-danger{
+	margin: 0 20px;
+	margin-bottom: 20px;
+}
+
+.photo{
+	margin-bottom: 60px;
+}
+
+
+.video .parafour{
+	
+	padding-bottom: 20px;
+}
+
+.recent{
+	margin-bottom: 20px;
+}
+}
+
+/* small devices (portrait tablets and large phones,600px and up)*/
+
+@media only screen and (min-width:600px){
+.stay .btn-outline-danger{
+	margin: 0 20px;
+	margin-bottom: 25px;
+}
+
+.photo{
+	margin-bottom: 60px;
+}
+
+.video .parafour{
+	
+	padding-bottom: 20px;
+}
+
+.recent{
+	margin-bottom: 20px;
+}
+
+}
+
+/*medium devices (landscapes,tablets,768px and up)*/
+
+
+@media only screen and (min-width: 768px) {
+
+ /*blog section*/
+
+.blog h1{
+	
+	padding: 5px 4px;
+	color: #3d3d29;
+	font-size: 25px;
+	
+}
+
+.blog p{
+	
+	padding: 5px 4px;
+	color: #3d3d29;
+	font-size: 15px;
+}  
+} 
+
+
+ /* Large devices (laptops/desktops, 992px and up) */
+
+
+
+@media only screen and (min-width:992px){
+
+.photo img{
+	margin-bottom: 10px;
+}
+
+.click img{
+	margin-bottom: 10px;
+	padding-top:72px;
+}
+
+.blog h1{
+	
+	padding: 10px 5px;
+	color: #3d3d29;
+	font-size: 30px;
+	
+}
+
+.blog p{
+	
+	padding: 10px 5px;
+	color: #3d3d29;
+	font-size: 15px;
+}
+
+}
+
+/*extra large devices (large laptops and desktops,1200px and up)*/
+
+@media only screen and (min-width:1200px){
+ .click img{
+	margin-bottom: 10px;
+	padding-top: 50px;
+}
+}
