@@ -299,6 +299,8 @@ section#photo-section {
 
 /*extra small devices (phones,600px and down)*/
 
+
+
 @media only screen and (max-width:600px){
 .stay .btn-outline-danger{
 	margin: 0 20px;
